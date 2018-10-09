@@ -1,0 +1,31 @@
+body {
+  background-color: #ffdddd;
+}
+
+h1 {
+  color: #ef308a;
+}
+
+.intro {
+  width: 20%;
+  float: left;
+}
+
+.examples {
+  width: 60%;
+  float: right;
+}
+
+.info {
+  float: right;
+  width: 60%;
+}
+
+.home-img {
+ position: relative;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
