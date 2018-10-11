@@ -8,16 +8,16 @@ h1 {
 
 .intro {
   width: 20%;
-  float: left;
+
 }
 
 .examples {
   width: 60%;
-  float: right;
+
 }
 
 .info {
-  float: right;
+
   width: 60%;
 }
 
@@ -26,6 +26,5 @@ h1 {
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
+
 }
