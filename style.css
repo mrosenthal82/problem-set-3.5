@@ -1,10 +1,14 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  color: #8f106a;
+}
+
 body {
   background-color: #ffdddd;
 }
 
 h1, h2 {
   color: #ef308a;
-  font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-style: italic;
 }
@@ -13,7 +17,7 @@ h3{
   color: #af108a;
 }
 
-.intro {
+#intro {
   width: 40%;
   float: right;
   margin: 0 5% 5% 5%;
@@ -21,7 +25,7 @@ h3{
   text-align: justify;
 }
 
-.examples {
+#examples {
   width: 30%;
   float: right;
   margin: 0 5% 5% 5%;
@@ -38,13 +42,9 @@ h3{
  float: left;
 }
 
-p, ol, ul {
-  font-family: 'Raleway', sans-serif;
-  color: #8f106a;
-}
-
 .nav a {
   color: #af108a;
+  margin: 6px;
 }
 
 a {
@@ -57,5 +57,5 @@ footer {
   height: 5%;
   width: 100%;
 
-  
+
 }
