@@ -1,20 +1,32 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  color: #8f106a;
+}
+
 body {
   background-color: #ffdddd;
 }
 
-h1 {
+h1, h2 {
   color: #ef308a;
+  font-weight: bold;
+  font-style: italic;
 }
 
-.intro {
+h3{
+  color: #af108a;
+}
+
+#intro {
   width: 40%;
   float: right;
   margin: 0 5% 5% 5%;
   font-size: 18px;
   text-align: justify;
+  max-height: 200px;
 }
 
-.examples {
+#examples {
   width: 30%;
   float: right;
   margin: 0 5% 5% 5%;
@@ -27,15 +39,38 @@ h1 {
 }
 
 .home-img {
-
- width: 35%;
  margin: 0 5% 5% 10%;
  float: left;
 }
 
+.how-to {
+  width: 90%;
+  margin: 0 5% 5% 5%;
+  float: left;
+}
+
+.nav a {
+  color: #af108a;
+  margin: 6px;
+}
+
+a {
+  color: #ef58cc;
+}
+
+th {
+  /* font-size: 15px; */
+  padding: 2%;
+
+}
+
+table {
+  border-color: #af108a;
+}
+
 footer {
+  font-size: 15px;
   text-align: center;
-  float: none;
-  position: fixed;
-  bottom: 0;
+  height: 5%;
+  width: 100%;
 }
