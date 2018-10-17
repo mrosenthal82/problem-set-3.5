@@ -7,6 +7,13 @@ body {
   background-color: #ffdddd;
 }
 
+img {
+  border-style: dashed;
+  border-width: medium;
+  border-radius: 7%;
+  
+}
+
 h1, h2 {
   color: #ef308a;
   font-weight: bold;
@@ -20,6 +27,7 @@ h3{
 img[src="images/rainbow-icon.png"]{
   height: 60px;
   float: right;
+  border: 0;
 }
 
 #intro {
