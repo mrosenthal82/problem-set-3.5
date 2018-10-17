@@ -17,6 +17,11 @@ h3{
   color: #af108a;
 }
 
+img[src="images/rainbow-icon.png"]{
+  height: 100px;
+  float: right;
+}
+
 #intro {
   width: 40%;
   float: right;
