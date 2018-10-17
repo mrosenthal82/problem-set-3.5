@@ -63,6 +63,10 @@ a {
   color: #ef58cc;
 }
 
+a:hover{
+  color: #ff78ec;
+}
+
 th {
   /* font-size: 15px; */
   padding: 2%;
