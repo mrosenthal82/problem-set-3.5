@@ -23,6 +23,7 @@ h3{
   margin: 0 5% 5% 5%;
   font-size: 18px;
   text-align: justify;
+  max-height: 200px;
 }
 
 #examples {
@@ -42,6 +43,12 @@ h3{
  float: left;
 }
 
+.how-to {
+  width: 90%;
+  margin: 0 5% 5% 5%;
+  float: left;
+}
+
 .nav a {
   color: #af108a;
   margin: 6px;
@@ -51,11 +58,19 @@ a {
   color: #ef58cc;
 }
 
+th {
+  /* font-size: 15px; */
+  padding: 2%;
+
+}
+
+table {
+  border-color: #af108a;
+}
+
 footer {
   font-size: 15px;
   text-align: center;
   height: 5%;
   width: 100%;
-
-
 }
