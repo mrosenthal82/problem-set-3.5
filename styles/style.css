@@ -78,6 +78,7 @@ table[border]{
   border-style: dotted;
   border-width: thin;
   padding: 2%;
+  background-color: #ffeded;
 }
 
 .nav a {
@@ -99,6 +100,14 @@ a {
 
 a:hover{
   color: #ff74fa;
+}
+
+th:hover{
+  font-style:italic;
+}
+
+ol li:last-child{
+  color: #7f004a;
 }
 
 th {
