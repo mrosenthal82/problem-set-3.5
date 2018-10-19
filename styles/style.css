@@ -32,6 +32,8 @@ img[src="images/rainbow-icon.png"]{
   margin-right: 5%;
 }
 
+
+
 #intro {
   width: 40%;
   float: right;
@@ -51,6 +53,7 @@ img[src="images/rainbow-icon.png"]{
   width: 50%;
   margin: 0 5% 5% 5%;
   float: left;
+  position: relative;
 }
 
 #home-img {
@@ -75,12 +78,20 @@ img[src="images/rainbow-icon.png"]{
   margin: 6px 8.5%;
 }
 
+h3 + ol {
+  font-style: italic;
+}
+
+li a {
+  color: #ff68dc;
+}
+
 a {
   color: #ef58cc;
 }
 
 a:hover{
-  color: #ff78ec;
+  color: #ff74fa;
 }
 
 th {
@@ -98,4 +109,5 @@ footer {
   text-align: center;
   height: 5%;
   width: 100%;
+  float: none;
 }
