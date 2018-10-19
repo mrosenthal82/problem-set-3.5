@@ -11,6 +11,8 @@ img {
   border-style: dashed;
   border-width: medium;
   border-radius: 7%;
+  height: 200px;
+  margin: 0 5% 0 10%;
 
 }
 
@@ -139,4 +141,9 @@ footer {
   height: 5%;
   width: 100%;
   float: none;
+}
+
+hr {
+  border-color: #ef70ca;
+  border-width: thin;
 }
