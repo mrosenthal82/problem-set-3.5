@@ -19,14 +19,17 @@ h1, h2 {
   font-weight: bold;
   font-style: italic;
   margin-left: 10%;
+  font-weight: bolder;
 }
 
 h3{
   color: #af108a;
+  text-decoration: underline;
 }
 
 img[src="images/rainbow-icon.png"]{
   height: 60px;
+  width: 60px;
   float: right;
   border: 0;
   margin-right: 5%;
@@ -34,6 +37,11 @@ img[src="images/rainbow-icon.png"]{
 
 a[href*="youtube"]{
   font-size: 15px;
+}
+
+a[href*="youtube"]:hover{
+  font-size: 15px;
+  font-style: italic;
 }
 
 table[border]{
@@ -84,6 +92,7 @@ table[border]{
 .nav a {
   color: #af108a;
   margin: 6px 8.5%;
+  text-decoration: none;
 }
 
 h3 + ol {
