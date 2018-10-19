@@ -32,6 +32,13 @@ img[src="images/rainbow-icon.png"]{
   margin-right: 5%;
 }
 
+a[href*="youtube"]{
+  font-size: 15px;
+}
+
+table[border]{
+  font-size: 18px;
+}
 
 
 #intro {
@@ -102,6 +109,10 @@ th {
 
 table {
   border-color: #af108a;
+}
+
+th td {
+  font-style: bold;
 }
 
 footer {
