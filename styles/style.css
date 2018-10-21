@@ -11,8 +11,9 @@ img {
   border-style: dashed;
   border-width: medium;
   border-radius: 7%;
-  height: 200px;
-  margin: 0 5% 0 10%;
+  height: auto;
+  width: 30%;
+  margin: 0 9% 0 9%;
 
 }
 
@@ -22,6 +23,10 @@ h1, h2 {
   font-style: italic;
   margin-left: 10%;
   font-weight: bolder;
+}
+
+hr + h2{
+  font-size: 30px;
 }
 
 h3{
@@ -97,6 +102,10 @@ table[border]{
   text-decoration: none;
 }
 
+.nav + hr {
+  margin: 3% 0 3% 0;
+}
+
 h3 + ol {
   font-style: italic;
 }
@@ -124,7 +133,11 @@ ol li:last-child{
 th {
   /* font-size: 15px; */
   padding: 2%;
+  width: 10%;
+}
 
+td {
+  height: 20%;
 }
 
 table {
